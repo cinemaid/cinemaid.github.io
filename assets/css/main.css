@@ -154,17 +154,8 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		text-decoration: none;
-		border-bottom: dotted 1px;
+		text-decoration: underline;
 	}
-
-		a:hover {
-			border-bottom-color: transparent !important;
-		}
 
 	strong, b {
 		font-weight: bold;
